@@ -1,0 +1,15 @@
+	Shaped Form Template
+		by VB Overlord
+
+1. Place all of the other files in this ZIP in the VB\TEMPLATES\PROJECTS directory.
+2. Start VB, and choose a new project. There should be a Shaped Form project. Open it.
+3. VB will give you a blank white form. Now run some graphics program like Paint or Photoshop.
+4. Create an image to use as your form shape. Keep in mind that any white pixels will become transparent.
+5. Save the image, and load it into the form's Picture property.
+
+NOTE: If you want to have a different background color, change the form's BackColor 
+property and change the line in Form_Load that says "Transcolor = " to equal the 
+SystemColorConstant of your transparent color.
+
+The only drawback to this code is that you do not get a 3D border, as with a typical window.
+If anyone can fix this, please let me know.
